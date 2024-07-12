@@ -43,7 +43,7 @@ classifiers = [
     "Intended Audience :: Developers"
 ]
 dependencies = [
-    "bgpy_pkg==8.0.0",
+    "bgpy_pkg==8.0.1",
 ]
 
 [project.urls]
@@ -54,7 +54,7 @@ phd_defense = "phd_defense.__main__:main"
 
 [project.optional-dependencies]
 test = [
-    "bgpy_pkg[test]==8.0.0"
+    "bgpy_pkg[test]==8.0.1"
 ]
 
 [tool.setuptools]
